@@ -1,7 +1,12 @@
-main {
+.container {
     display:inline-block;
     width: 800px;
 }
-div {
-
+.left-column {
+    width: 40%;
+    float: left;
+}
+.right-column {
+    width: 60%;
+    float: left;
 }
