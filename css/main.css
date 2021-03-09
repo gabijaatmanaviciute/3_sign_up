@@ -25,9 +25,23 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+    position: relative;
+    color: rgb(150, 142, 142);
 }
 .close{
-
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.close:hover {
+    cursor: pointer;
+    color: black;
 }
 form {
     display: inline-block;
